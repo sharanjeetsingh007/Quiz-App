@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+.quizMain__main > .questions > h3 {
+  letter-spacing: 0.7px;
+  font-size: 22px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.quizMain {
+  /* border: 2px solid green; */
+  height: calc(100vh - 200px);
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.buttons__quizMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons__quizMain > button {
+  padding: 2px 7px !important;
+  color: black;
+  border: 1px solid black;
+}
+
+.buttons__quizMain > button > span {
+  text-transform: lowercase;
+}
+
+.quizMain__main {
+  padding: 40px 90px;
+  padding-bottom: 30px;
+
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.buttons__quizMain {
+  padding: 10px 10px;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.buttons__quizMain > p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.buttons__quizMain > p > span {
+  font-size: 17px;
+}
+
+.options {
+  /* border: 2px solid black; */
+  flex-grow: 1;
+  /* padding: 10px; */
+  margin-top: 50px;
+}
+
+.option {
+  /* border: 1px solid black; */
+  border-radius: 12px;
+  height: 52px;
+  margin-bottom: 25px;
+  /* width: 900px; */
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.option > p {
+  margin-left: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.submit__button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.option:hover {
+  background-color: #eeeeee;
+}
+
+/* .option:active {
+  color: red;
+}
+.option:focus {
+  color: red;
+} */
+.submit__button > button {
+  box-shadow: none !important;
+  padding: 6px 25px !important;
+  background-color: #03d1b2;
+}
+
+.submit__button > button:hover {
+  background-color: #04c3a6;
+}
+
+.submit__button > button > span {
+  text-transform: lowercase;
+}

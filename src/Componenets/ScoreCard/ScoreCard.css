@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+.scorecard {
+  /* border: 2px solid green; */
+  height: calc(100vh - 200px);
+  /* display: flex;
+  flex-direction: column; */
+  padding: 60px 90px;
+}
+
+.score__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scorecard > .score__header > h3 {
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.scorecard__main {
+  /* border: 2px solid red; */
+  height: 100%;
+}

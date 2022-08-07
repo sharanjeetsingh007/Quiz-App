@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+.correctAnswer {
+  /* border: 2px solid green; */
+  background-color: #49c68d;
+
+  border-radius: 12px;
+  height: 52px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  /* border: 2px solid red; */
+  background-color: #e1dede;
+
+  border-radius: 12px;
+  height: 52px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.selected > p,
+.correctAnswer > p {
+  margin-left: 10px;
+  font-family: "Quicksand", sans-serif;
+}
