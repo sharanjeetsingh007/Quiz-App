@@ -46,7 +46,7 @@ function Layout() {
             } else {
                 try {
                     const res = await fetch(
-                        'https://the-trivia-api.com/api/questions?categories=food_and_drink,general_knowledge&limit=10&region=AU&difficulty=easy',
+                        'https://the-trivia-api.com/api/questions?categories=general_knowledge&limit=10&region=AU&difficulty=medium',
                         {
                             signal: abortController.signal,
                         },
