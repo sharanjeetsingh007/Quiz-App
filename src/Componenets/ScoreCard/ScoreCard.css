@@ -25,3 +25,9 @@
   /* border: 2px solid red; */
   height: 100%;
 }
+
+@media only screen and (max-width: 412px) {
+  .scorecard {
+    padding: 60px 10px;
+  }
+}

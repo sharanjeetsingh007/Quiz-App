@@ -7,7 +7,7 @@ Tech stack - React.js, HTML5 , Css3, and different Api's calls
 
 # Demo
 
-https://endearing-sawine-ada466.netlify.app/
+https://lustrous-mermaid-becb93.netlify.app/
 
 ## Running on local Machine
 

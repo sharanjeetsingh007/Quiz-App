@@ -26,6 +26,11 @@
   border: 1px solid black;
 }
 
+.buttons__quizMain > button:hover {
+  background-color: rgba(128, 128, 128, 0.097);
+  border: 1px solid black;
+}
+
 .buttons__quizMain > button > span {
   text-transform: lowercase;
 }

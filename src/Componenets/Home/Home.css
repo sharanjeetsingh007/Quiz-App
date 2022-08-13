@@ -34,3 +34,13 @@
   background-color: white;
   border: 4px solid whitesmoke;
 }
+
+@media only screen and (max-width: 412px) {
+  .home__main {
+    padding: 140px 20px;
+  }
+  .choose__quiztype > button {
+    height: 200px;
+    width: 250px;
+  }
+}
